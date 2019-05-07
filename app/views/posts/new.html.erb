@@ -1,0 +1,12 @@
+<h2>Add New POST</h2>
+<%= form_for :post, url: posts_path do |f| %>
+    <p>
+        <%= f.text_field :title , placeholder: 'Enter Title' %>
+    </p>
+    <p>
+        <%= f.text_area :body , placeholder: 'Enter Text' %>
+    </p>
+    <p>
+        <%= f.submit %>
+    </p>
+<% end %>
