@@ -67,3 +67,11 @@ textarea
 {
     height: 160px;
 }
+
+.error
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    color: tomato;
+}
