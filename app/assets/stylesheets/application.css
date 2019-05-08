@@ -75,3 +75,10 @@ textarea
 
     color: tomato;
 }
+
+.edit_button
+{
+    font-size: .8em;
+
+    text-decoration: none;
+}
